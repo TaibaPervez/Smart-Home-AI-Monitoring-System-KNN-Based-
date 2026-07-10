@@ -1,0 +1,186 @@
+[
+    {
+        "timestamp": "2026-06-05 22:40:49",
+        "sensor_inputs": {
+            "Temperature_C": 30.0,
+            "Humidity_%": 45.0,
+            "Light_Lux": 150.0,
+            "Appliance_Usage_kWh": 2.0,
+            "HVAC_Usage_kWh": 1.5,
+            "Water_Heater_kWh": 0.8,
+            "Total_Energy_kWh": 4.3,
+            "Hour": 22.0,
+            "Smoke_Detected": 0,
+            "Gas_Leak": 0
+        },
+        "ml_prediction": "Active",
+        "triggered_rules": [
+            "Rule 1: Motion active and light below 300, Light ON",
+            "Rule 2: Motion active and temperature above 28, Fan ON"
+        ],
+        "final_device_actions": {
+            "fan": "ON",
+            "light": "ON",
+            "alarm": "OFF",
+            "mode": "Home"
+        }
+    },
+    {
+        "timestamp": "2026-06-05 22:44:40",
+        "sensor_inputs": {
+            "Temperature_C": 29.0,
+            "Humidity_%": 45.0,
+            "Light_Lux": 150.0,
+            "Appliance_Usage_kWh": 2.0,
+            "HVAC_Usage_kWh": 1.5,
+            "Water_Heater_kWh": 0.8,
+            "Total_Energy_kWh": 4.3,
+            "Hour": 22.0,
+            "Smoke_Detected": 0,
+            "Gas_Leak": 0
+        },
+        "ml_prediction": "Active",
+        "triggered_rules": [
+            "Rule 1: Motion active and light below 300, Light ON",
+            "Rule 2: Motion active and temperature above 28, Fan ON"
+        ],
+        "final_device_actions": {
+            "fan": "ON",
+            "light": "ON",
+            "alarm": "OFF",
+            "mode": "Home"
+        }
+    },
+    {
+        "timestamp": "2026-06-05 22:45:40",
+        "sensor_inputs": {
+            "Temperature_C": 31000.0,
+            "Humidity_%": 45.0,
+            "Light_Lux": 150.0,
+            "Appliance_Usage_kWh": 2.0,
+            "HVAC_Usage_kWh": 1.5,
+            "Water_Heater_kWh": 0.8,
+            "Total_Energy_kWh": 4.3,
+            "Hour": 22.0,
+            "Smoke_Detected": 0,
+            "Gas_Leak": 0
+        },
+        "ml_prediction": "Active",
+        "triggered_rules": [
+            "Rule 1: Motion active and light below 300, Light ON",
+            "Rule 2: Motion active and temperature above 28, Fan ON"
+        ],
+        "final_device_actions": {
+            "fan": "ON",
+            "light": "ON",
+            "alarm": "OFF",
+            "mode": "Home"
+        }
+    },
+    {
+        "timestamp": "2026-06-05 22:46:16",
+        "sensor_inputs": {
+            "Temperature_C": 30.0,
+            "Humidity_%": 45.0,
+            "Light_Lux": 150.0,
+            "Appliance_Usage_kWh": 2.0,
+            "HVAC_Usage_kWh": 1.5,
+            "Water_Heater_kWh": 0.8,
+            "Total_Energy_kWh": 6.4,
+            "Hour": 22.0,
+            "Smoke_Detected": 1,
+            "Gas_Leak": 1
+        },
+        "ml_prediction": "Active",
+        "triggered_rules": [
+            "Rule 4: Smoke detected, Emergency Mode",
+            "Rule 5: Gas leak detected, Emergency Mode",
+            "Rule 6: Emergency overrides all other rules"
+        ],
+        "final_device_actions": {
+            "fan": "OFF",
+            "light": "ON",
+            "alarm": "ON",
+            "mode": "Emergency"
+        }
+    },
+    {
+        "timestamp": "2026-06-05 22:47:54",
+        "sensor_inputs": {
+            "Temperature_C": 0.0,
+            "Humidity_%": 0.0,
+            "Light_Lux": -1.0,
+            "Appliance_Usage_kWh": 0.0,
+            "HVAC_Usage_kWh": 0.0,
+            "Water_Heater_kWh": 0.0,
+            "Total_Energy_kWh": 0.0,
+            "Hour": 22.0,
+            "Smoke_Detected": 1,
+            "Gas_Leak": 1
+        },
+        "ml_prediction": "Inactive",
+        "triggered_rules": [
+            "Rule 4: Smoke detected, Emergency Mode",
+            "Rule 5: Gas leak detected, Emergency Mode",
+            "Rule 6: Emergency overrides all other rules"
+        ],
+        "final_device_actions": {
+            "fan": "OFF",
+            "light": "ON",
+            "alarm": "ON",
+            "mode": "Emergency"
+        }
+    },
+    {
+        "timestamp": "2026-06-05 22:53:20",
+        "sensor_inputs": {
+            "Temperature_C": 30.0,
+            "Humidity_%": 45.0,
+            "Light_Lux": 150.0,
+            "Appliance_Usage_kWh": 2.0,
+            "HVAC_Usage_kWh": 1.5,
+            "Water_Heater_kWh": 0.8,
+            "Total_Energy_kWh": 4.3,
+            "Hour": 22.0,
+            "Smoke_Detected": 0,
+            "Gas_Leak": 0
+        },
+        "ml_prediction": "Active",
+        "triggered_rules": [
+            "Rule 1: Motion active and light below 300, Light ON",
+            "Rule 2: Motion active and temperature above 28, Fan ON"
+        ],
+        "final_device_actions": {
+            "fan": "ON",
+            "light": "ON",
+            "alarm": "OFF",
+            "mode": "Home"
+        }
+    },
+    {
+        "timestamp": "2026-06-05 23:38:15",
+        "sensor_inputs": {
+            "Temperature_C": 30.0,
+            "Humidity_%": 45.0,
+            "Light_Lux": 150.0,
+            "Appliance_Usage_kWh": 2.0,
+            "HVAC_Usage_kWh": 1.5,
+            "Water_Heater_kWh": 0.8,
+            "Total_Energy_kWh": 4.3,
+            "Hour": 23.0,
+            "Smoke_Detected": 0,
+            "Gas_Leak": 0
+        },
+        "ml_prediction": "Active",
+        "triggered_rules": [
+            "Rule 1: Motion active and light below 300, Light ON",
+            "Rule 2: Motion active and temperature above 28, Fan ON"
+        ],
+        "final_device_actions": {
+            "fan": "ON",
+            "light": "ON",
+            "alarm": "OFF",
+            "mode": "Home"
+        }
+    }
+]
